@@ -1,0 +1,253 @@
+
+.navbar {
+  background-color: black;
+  width: 100%;
+  left:0px;
+  height: 6.5%;
+  top: 0px;
+  position: fixed;
+  overflow: auto;
+}
+
+
+body{
+  background-color: pink;
+}
+
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: #70FF70;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid #C0FFB0;
+}
+
+.logo{
+  background-color: #A0FF94;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  padding: 4px;
+  height: 5.5%;
+  width: 8%;
+  text-align: right;
+}
+
+
+.navbar a:hover {
+  background-color: #E6FCBC;
+  border-bottom: 3px solid red;
+  border-right: 3px solid #C0FFB0;
+}
+
+.navbar a.active {
+  border-bottom: 3px solid red;
+  border-right: 3px solid #C0FFB0;
+}
+
+
+.head{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 200px;
+  background-color: #000;
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+  font-size: 45px;
+  position: relative;
+}
+
+#icon{
+  width: 5%;
+}
+
+.highlighter{
+  background-color: lawngreen;
+}
+
+
+.news{
+  margin-top: 100px;
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 35px;
+  font-style: normal;
+  display: inline-block; /* Display the text inline with the video */
+  width: 25%;/* Adjust the width as needed to create space for the video */
+  margin-left: 20px; /* Add some spacing between the video and text */
+}
+
+.quizhead{
+  font-family: helvetica, sans-serif;
+  color: #fff;
+}
+
+#rules{
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  background-color: purple;
+  width: 300px
+}
+
+.questions{
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+  color: lightgreen;
+  font-weight: bold;
+}
+
+
+.wrong{
+  font-size: 30px;
+  font-family: helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.right{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: helvetica, sans-serif;
+}
+.wrong:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.right:hover{
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.intro{
+  font-size: 40px;
+  background-color: black;
+  text-align: left;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+#endhome{
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+  color: white;
+  background-color: purple;
+  padding: 5px;
+  width: 38%;
+}
+.faces{
+  margin-top: 100px;
+  color: #fff;
+  font-family: helvetica, sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.stories{
+  font-size: 40px;
+  background-color: purple;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+  font-family: helvetica, sans-serif;
+}
+
+.images{
+  width: 50%;
+  text-align: center;
+}
+ 
+.names{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  color: beige;
+}
+
+#title{
+  font-size: 40p;
+}
+ 
+.fakevsreal{
+  margin-top: 100px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 40px;
+  color: #000;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+
+}
+.resources{
+  margin-top: 100px;
+  text-align: center;
+}
+.resource1{
+  font-size: 40px;
+  display: inline-block;
+  font-family: helvetica, sans-serif;
+  background-color: purple;
+  text-align: left;
+  margin-top: 100px;
+  padding: 20px;
+  width: 40%;
+
+  border-radius: 30px;
+  color: white;
+}
+
+.listitems{
+  font-size: 25px;
+  padding-inline: 30px;
+  padding-bottom: 10px;
+}
+
+.list{
+  margin-bottom: 15px;
+}
+
+.resource2{
+  display: inline-block;
+  font-size: 40px;
+  font-family: helvetica, sans-serif;
+  background-color: white;
+  text-align: left;
+  margin-top: 100px;
+  padding: 20px;
+  width: 47%;
+  margin-left: 20px;
+  border-radius: 30px;
+  color: purple;
+}
+
+.naloxone{
+  margin-top: 150px;
+  font-family: helvetica, sans-serif;
+  color: white;
+  border-radius: 30px;
+  background-color: black;
+  display: inline-block;
+}
+.footer{
+  text-align: center;
+  color: #fff;
+}
+
